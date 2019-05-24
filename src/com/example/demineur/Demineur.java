@@ -13,6 +13,8 @@ public class Demineur extends FrameForDemoMaker {
 	private static final int NB_MINES = 5;
 	private static final int TAILLE = 10;
 
+	private Jeu jeu = new Jeu();
+
 	public Demineur() throws IOException {
 		super("Démineur");
 		setDefaultBounds(100, 100, 900, 600);
